@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Jessica Ip</title>
-	<link href="http://jessicaip.ca/about/atom.xml" rel="self"/>
-	<link href="http://jessicaip.ca/about"/>
+	<link href="http://www.jessicaip.ca/about/atom.xml" rel="self"/>
+	<link href="http://www.jessicaip.ca/about"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://jessicaip.ca/about</id>
+	<id>http://www.jessicaip.ca/about</id>
 	<author>
 		<name>Jessica Ip</name>
 		<email>97jessicaip@gmail.com</email>
