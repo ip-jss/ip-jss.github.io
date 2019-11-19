@@ -13,14 +13,19 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: #999;
+    /*text-decoration: none;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    color: #999; */
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0);
 }
+
 a:hover {
-   text-decoration: none;
-   border-bottom: 1px solid rgba(255, 0, 0, 0.4);
-   display: inline-block;
+   /*text-decoration: underline;*/
+    text-decoration-color: rgba(255, 255, 255, 0.5); 
 }
+
 h1 {
     font-size: 3em;
     font-family:'Open Sans', 'Open Sans', 'Sans-Serif';
