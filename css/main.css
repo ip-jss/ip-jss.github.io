@@ -14,13 +14,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    text-decoration-color: rgba(255, 255, 255, 0.5);
+    /*text-decoration-color: rgba(255, 255, 255, 0.5);*/
+    text-decoration-color: rgba(0, 0, 255, 0.2);
     color: #999; 
 }
 
 a:hover {
-   text-decoration: underline;
-   text-decoration-color: rgba(255, 255, 255, 0.5); 
+   text-decoration: underline; 
 }
 
 h1 {
