@@ -42,7 +42,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research interests lie in the intersection of human-computercinteraction, information visualization, and perceptual processing. I’m especially curious about the perceptual mechanisms that guide decision-making and how these processes inform the design of new information and visualization systems.
+                My research interests lie in the intersection of human-computer interaction, information visualization, and perceptual processing. I’m especially curious about the perceptual mechanisms that guide decision-making and how these processes inform the design of new information and visualization systems.
               </p>
             </td>
           </tr>
@@ -50,7 +50,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     
-          <tr onmouseout="nerf_stop()" onmouseover="nerf_start()" >
+          <tr onmouseout="haptipedia_stop()" onmouseover="haptipedia_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
 
@@ -59,7 +59,7 @@
                 </div>
 
                 <img src='pics/Haptipedia-1.png' width="160">
-		    </div>
+		            </div>
               <script type="text/javascript">
                 function nerf_start() {
                   document.getElementById('nerf_image').style.opacity = "1";
@@ -99,6 +99,44 @@
               An online haptic device library to accelerate haptic innovation. </p>
             </td>
           </tr> 
+
+
+        <tr onmouseout="lighthouse_stop()" onmouseover="lighthouse_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lh_image'><video width=100% height=100% muted autoplay loop>
+                <source src="images/Correlation.png">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/Correlation.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lighthouse_start() {
+                  document.getElementById('lh_image').style.opacity = "1";
+                }
+
+                function lighthouse_stop() {
+                  document.getElementById('lh_image').style.opacity = "0";
+                }
+                lighthouse_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://people.eecs.berkeley.edu/~pratul/lighthouse/">
+                <papertitle>Visual Correlation of Perception</papertitle>
+              </a>
+              <br>
+              Supervised by <a href="https://www.cs.ubc.ca/~rensink/">Ron Rensink</a>.
+              <br>
+
+
+              <br>
+              <a href="https://viscoglab.psych.ubc.ca/research/visual-perception-of-correlation/">Project Page</a>
+      
+              <p></p>
+              <p>We investigate the perception of correlation in graphical displays.</p>
+            </td>
+          </tr>  
     
        
         </tbody></table>
